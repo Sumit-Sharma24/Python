@@ -1,0 +1,25 @@
+# Strings and Functions
+my_str = "Sumit is a good boy"
+my_str1 = "Sumitisagoodboy"
+print(my_str[4])
+print(my_str[0:4])
+print(my_str[0:5])
+print(len(my_str))
+print(my_str[0:78])
+print(my_str[0:12:3])
+print(my_str[::])
+print(my_str[:19:1])
+print(my_str[0::])
+print(my_str[-15:-1])
+print(my_str.isalnum())
+print(my_str1.isalnum())
+print(my_str.endswith("boy"))
+print(my_str.endswith("dok"))
+print(my_str.count("o"))
+print(my_str.capitalize())
+print(my_str.find("boy"))
+print(my_str.lower())
+print(my_str.upper())
+print(my_str.replace("is", "is not"))
+print(my_str[-15:-16:-1])
+
